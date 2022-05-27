@@ -2,6 +2,9 @@ package com.fundamentos.springboot.fundamentos.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import com.fundamentos.springboot.fundamentos.bean.BeanTestDependency;
+import com.fundamentos.springboot.fundamentos.bean.BeanTestDependencyImplementTwo;
 import com.fundamentos.springboot.fundamentos.bean.MyBean;
 import com.fundamentos.springboot.fundamentos.bean.MyBeanImplement2;
 import com.fundamentos.springboot.fundamentos.bean.MyBeanWithDependency;
@@ -20,6 +23,11 @@ public class MyConfigurationBean {
 	@Bean
 	public MyOperation beanMyOperation(){
 		return new OperationImplement();
+	}
+	
+	@Bean
+	public BeanTestDependency beanTestDependencyOperation() {
+		return new BeanTestDependencyImplementTwo();
 	}
 		
 	@Bean

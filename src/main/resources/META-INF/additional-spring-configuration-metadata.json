@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "value.name",
+    "type": "java.lang.String",
+    "description": "A description for 'value.name'"
+  },
+  {
+    "name": "value.apellido",
+    "type": "java.lang.String",
+    "description": "A description for 'value.apellido'"
+  },
+  {
+    "name": "value.ramdom",
+    "type": "java.lang.String",
+    "description": "A description for 'value.ramdom'"
+  },
+  {
+    "name": "value.surname",
+    "type": "java.lang.String",
+    "description": "A description for 'value.surname'"
+  },
+  {
+    "name": "value.apodo",
+    "type": "java.lang.String",
+    "description": "A description for 'value.apodo'"
+  },
+  {
+    "name": "value.random",
+    "type": "java.lang.String",
+    "description": "A description for 'value.random'"
+  },
+  {
+    "name": "user.email",
+    "type": "java.lang.String",
+    "description": "A description for 'user.email'"
+  },
+  {
+    "name": "user.password",
+    "type": "java.lang.String",
+    "description": "A description for 'user.password'"
+  },
+  {
+    "name": "user.age",
+    "type": "java.lang.String",
+    "description": "A description for 'user.age'"
+  }
+]}
